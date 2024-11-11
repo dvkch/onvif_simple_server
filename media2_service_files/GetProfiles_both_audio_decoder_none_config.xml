@@ -94,7 +94,7 @@
                             <tt:PanTilt x="1.0"
                                         y="1.0"
                                         space="http://www.onvif.org/ver10/tptz/PanTiltSpaces/GenericSpeedSpace"/>
-                            <tt:Zoom x="0.0"
+                            <tt:Zoom x="1.0"
                                      space="http://www.onvif.org/ver10/tptz/ZoomSpaces/ZoomGenericSpeedSpace"/>
                         </tt:DefaultPTZSpeed>
                         <tt:DefaultPTZTimeout>PT00H00M05S</tt:DefaultPTZTimeout>
@@ -115,8 +115,8 @@
                             <tt:Range>
                                 <tt:URI>http://www.onvif.org/ver10/tptz/ZoomSpaces/PositionGenericSpace</tt:URI>
                                 <tt:XRange>
-                                    <tt:Min>1</tt:Min>
-                                    <tt:Max>1</tt:Max>
+                                    <tt:Min>0</tt:Min>
+                                    <tt:Max>100</tt:Max>
                                 </tt:XRange>
                             </tt:Range>
                         </tt:ZoomLimits>
@@ -205,7 +205,7 @@
                             <tt:PanTilt x="1.0"
                                         y="1.0"
                                         space="http://www.onvif.org/ver10/tptz/PanTiltSpaces/GenericSpeedSpace"/>
-                            <tt:Zoom x="0.0"
+                            <tt:Zoom x="1.0"
                                      space="http://www.onvif.org/ver10/tptz/ZoomSpaces/ZoomGenericSpeedSpace"/>
                         </tt:DefaultPTZSpeed>
                         <tt:DefaultPTZTimeout>PT00H00M05S</tt:DefaultPTZTimeout>
@@ -226,8 +226,8 @@
                             <tt:Range>
                                 <tt:URI>http://www.onvif.org/ver10/tptz/ZoomSpaces/PositionGenericSpace</tt:URI>
                                 <tt:XRange>
-                                    <tt:Min>1</tt:Min>
-                                    <tt:Max>1</tt:Max>
+                                    <tt:Min>0</tt:Min>
+                                    <tt:Max>100</tt:Max>
                                 </tt:XRange>
                             </tt:Range>
                         </tt:ZoomLimits>
